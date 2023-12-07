@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    overflow-x: hidden;
+}
+
+.mainDiv {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(to bottom, #2f3640, #3498db);
+}
+
+.mainBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* border: solid white; */
+    border-radius: 30px;
+    height: 80%;
+    width: 85%;
+    background-color: #2c3e50;
+    box-shadow: 5px 5px 30px;
+}
+
+.navBar {
+    /* border: solid white; */
+    background-color: #2f3640;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+    height: 15%;
+    width: 100%;
+
+    display: flex;
+}
+
+.logo {
+    height: 85%;
+    width: 6%;
+    /* border: solid white; */
+    border-radius: 25px;
+    background: linear-gradient(to bottom, #53b1f0, #16659a);
+    position: relative;
+    top: 6px;
+    left: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo:hover {
+    /* background: linear-gradient(rgb(103, 238, 103),green); */
+    background: linear-gradient(to right, #3498db, #2980b9);
+}
+
+.logo-font {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 1.3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+
+.nav-divs {
+    /* border: solid white; */
+    height: 100%;
+    width: 15%;
+
+    position: relative;
+    left: 387px;
+    border-radius: 40px;
+}
+
+.nav-divs:hover {
+    background-color: rgba(255, 255, 255, 0.114);
+}
+
+.nav-font {
+    /* border: solid green; */
+    width: 100%;
+    height: 100%;
+
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 600;
+    font-size: 1.3rem;
+    font-family: 'Georgia', serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-font:hover {
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.content {
+    /* border: solid white; */
+    height: 70%;
+    width: 60%;
+    /* border: solid white; */
+
+    position: absolute;
+    top: 120px;
+    left: 50px;
+}
+
+.content-txt {
+    /* padding: 1px; */
+    font-weight: 900;
+    font-size: 4.5rem;
+    /* font-family: 'Georgia', serif; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+.first-line {
+    color: white;
+}
+
+.name {
+    color: #3498db;
+}
+
+.job-name {
+    color: white;
+}
+
+.photo {
+    /* border: solid; */
+    height: 75%;
+    width: 25%;
+    background-image: url(/images/yashImg-NoBG1.png);
+    background-size: 100% 100%;
+    border-radius: 20px;
+    cursor: pointer;
+
+    position: absolute;
+    bottom: 10%;
+    right: 8%;
+}
+
+.goto-next-btn-div {
+    display: flex;
+    height: 40px;
+    width: 150px;
+    border-radius: 20px;
+    /* border: solid white; */
+    /* background: linear-gradient(to bottom, #43a6e8, #16659a); */
+    background: linear-gradient(to bottom, #9266de, #592bb6);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    bottom: 10px;
+    left: 600px;
+}
+
+.goto-next-btn-div:hover {
+    background: linear-gradient(to bottom, #592bb6, #9266de);
+}
+
+.next-btn {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 1.1rem;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.main-skills-div {
+    /* height: 70vh; */
+    width: 100%;
+    background: linear-gradient(#3498db, #3f4c5f, #2f3640);
+
+    /* display: flex; */
+}
+
+.skills-writen-div {
+    height: 15vh;
+    width: 100vw;
+    /* border: solid red; */
+    color: white;
+    font-weight: 800;
+    font-size: 5rem;
+
+    position: relative;
+    top: 4vh;
+    left: 2vw;
+}
+
+.all-skills-div {
+    position: relative;
+    /* border: rgb(47, 0, 128) solid; */
+    top: 7vh;
+    display: flex;
+}
+
+.skillBoxBGcolor {
+    background: linear-gradient(#2f3640, #3498db);
+    border-radius: 30px;
+    /* border: green solid; */
+    height: 35vh;
+    width: 35vh;
+
+    margin: 20px;
+
+    position: relative;
+} 
+
+.skills-div {
+    height: 25vh;
+    width: 11vw;
+    /* border: solid rgb(0, 229, 255); */
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.skills-div:hover {
+    height: 27vh;
+    width: 12vw;
+}
+
+.html-div {
+    background-image: url(/images/html-img-new.png);
+    background-size: 100% 100%;
+}
+
+.c-div {
+    background-image: url(/images/c-lngNoBG-img.png);
+    background-size: 100% 100%;
+}
+
+.css-div {
+    background-image: url(/images/css-img-NoBG.png);
+    background-size: 100% 100%;
+}
+
+/* Contect Section (Form) */
+
+.form-main-div {
+    height: 100vh;
+    width: 100vw;
+    /* border: 5px solid rgb(36, 128, 0); */
+    background-color: #2f3640;
+
+    position: relative;
+}
+
+.form-div {
+    height: 80vh;
+    width: 30vw;
+    /* border: solid red; */
+    background-color: black;
+    border-radius: 10%;
+    box-shadow: 2vh 2vh 5vh rgba(255, 255, 255, 0.239), -2vh -2vh 5vh rgba(255, 255, 255, 0.239);
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contect-me-div {
+    /* border: solid red; */
+    color: rgba(255, 255, 255, 0.914);
+    height: 10vh;
+
+    font-size: 2rem;
+    font-weight: 800;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputs-btn {
+    height: 6.5vh;
+    width: 70%;
+    margin: 2%;
+    padding: 3%;
+    /* border-radius: 3vh; */
+    border: none;
+    /* border: solid red; */
+    border-bottom: 1px solid white;
+    background-color: black;
+    color: white;
+
+    position: relative;
+    left: 10%;
+}
+
+.inputs-txt-area {
+    margin: 8%;
+    padding: 3%;
+    border-radius: 20px;
+    /* border: solid red; */
+
+    color: white;
+    background-color: black;
+    border: 1px solid white;
+
+    position: relative;
+    left: 7%;
+}
+
+.skills{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 0px;               
+
+}
+
+.skill-card{
+    background: linear-gradient(#2f3640, #3498db);
+    border-radius: 30px;
+    padding: 20px;
+}
+
+.skill-card>img{
+    height: 200px;
+    width: 200px;
+    object-fit: fill;
+}
+
+.skill-card>img:hover{
+    scale: 1.1;
+    transition: all 0.2s ease-in;
+}
